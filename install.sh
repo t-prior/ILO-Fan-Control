@@ -114,8 +114,7 @@ cp binaries/flash_ilo4 binaries/CP027911.xml flash/
 cp build/ilo4_277.bin.patched flash/ilo4_250.bin
 
 cd flash
-
-echo "Flashing firmware directly using flash_ilo4..."
+echo "[6/6] Flashing firmware directly using flash_ilo4..."
 ./flash_ilo4 --direct
 
 echo ""
