@@ -1,13 +1,5 @@
 # ilo4_unlock Firmware Flashing Script
 
-## Overview
-
-This shell script automates the process of flashing the iLO4 firmware unlock on supported HP servers. It performs system preparation, installs Python 2.7.18 and necessary dependencies, clones the `ilo4_unlock` repository, builds the patched firmware, and flashes it onto the server.
-
-**Important:** The process requires physical interaction with the server hardware and must be run with root privileges.
-
----
-
 ## Features
 
 - Automatic root privilege enforcement.
