@@ -27,7 +27,7 @@ This shell script automates the process of flashing the iLO4 firmware unlock on 
 
 - Physical access to the server motherboard to enable the **iLO Security Override Switch**.
 - Network access to download required packages and source code.
-- The script must be run on a Debian-based system (tested on Ubuntu/Debian).
+- The script must be run on a live Debian-based system (tested on Ubuntu/Debian).
 - Curl must be installed.
 - Run this script as root or with sudo privileges.
 
